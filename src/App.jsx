@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import UserInterface from "./UserInterface"
+import StylesContext from "./StylesContext";
 
 function App() {
   const styling = {
