@@ -17,7 +17,8 @@ function App() {
   }
   return (
     <main>
-     <h1
+      <StylesContext.Provider value={styling}>
+        <h1
           style={{
             color: "#FEE001",
             fontFamily: "Luminari, fantasy",
@@ -27,6 +28,7 @@ function App() {
           Welcome to Comics Galore!
         </h1>
         <UserInterface />
+      </StylesContext.Provider>
     </main>
   );
 }
